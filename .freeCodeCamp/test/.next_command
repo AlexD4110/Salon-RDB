@@ -108,3 +108,5 @@ touch salon.sh
 chmod +x salon.sh
 nano salon.sh
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git add salon.sh salon.sql
